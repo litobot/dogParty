@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid black;
+}
+
+header {
+  border-style: solid;
+  border-bottom-color: #048eaa;
+  background-color: #75e2e6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  font-weight: 100; /* Won't override inheritance */
+  font-size: .85em;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #048eaa;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/park.jpg');
+  background-size: cover;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-weight: 100;
+  font-size: 1.9em;
+  margin: 10px;
+}
+
+.hero h1 strong {
+  font-weight: bold;
+}
+
+.hero img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin: 10px 0;
+  border: 3px solid #048eaa;
+}
+
+.hero form {
+  display: flex;
+  font-size: .9em;
+  font-weight: lighter;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero label {
+  padding-right: 263px;
+}
+
+.hero button, .hero input {
+  width: 300px;
+  height: 30px;
+  font-size: .75em;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #75e2e6;/* Change this to image */
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+  gap: 20px;
+}
+
+.dog-info {
+  font-size: .90em;
+  text-align: center;
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.dog-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  border: 4px solid #048eaa;
+}
+
+.dog-info h2 {
+  font-family: Helvetica, sans-serif; /* Won't override Arial */
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.dog-info p {
+  text-align: left;
+  font-size: 1em;
+  margin: 10px 0;
+  flex-grow: 1;
+}
+
+.dog-info button {
+  padding: 10px 20px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  align-self: stretch;
+}
+
+footer {
+  padding: 25px;
+  background-color: #048eaa;
+  font-size: 1em;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 0.90em;
+  font-weight: 100;
+}
+
+.social-media-logos img {
+  width: 35px;
+  height: auto;
+  margin-right: 10px;
+}
